@@ -17,7 +17,7 @@ body {
 body::after {
   content: "";
   background: url("../images/landingpage.jpg");
-  background-attachment: scroll;
+  background-image: cover;
   opacity: 0.8;
   top: 0;
   left: 0;
