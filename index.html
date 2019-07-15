@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="js/main.js"></script>
     <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display|Montserrat|Oswald|PT+Sans|Roboto+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -9,6 +8,7 @@
   </head>
   <body>
     <div class="container">
+    <div class="backgroundimage">
       <div class="text-block">
         <h1 class="jumbotron text-white">Akan Name Generator</h1>
         <div class="panel">
@@ -19,18 +19,17 @@
         </div>
         <div class ="panel">
           <h2 class="panel-title bg-dark text-white"">Find out your Akan name here</h2>
-          <form class="bg-secondary text-white"">
-            <br />
-            <h4>Full Name:  </h4> <input type="text" name="txtfullname" class="form-control"><br><br>
-            <h4>Date(DD):  </h4> <input type="number" name="numDD" class="form-control"><br><br>
-            <h4>Month(MM):  </h4> <input type="number" name="numMM" class="form-control"><br><br>
-            <h4>Year(Century,CC and Year, YY):   </h4> <input type="number" name="numCC" class="form-control"> <input type="number" name="numYY" class="form-control"><br /><br />
-            <h4>Gender(Please enter M for male or F for female):   </h4> <input type="text" name="gender"><br /><br />
-            <input id="generateAkan" type="button" value="Generate Akan Name" onclick="dayName();" /><br /><br />
+          <form class=" bg-secondary text-white"name="myForm">
+            <br>
+            <h4>Full Name:  </h4> <input type="text" name="txtfullname" class="form-control" id="txtfullname"><br><br>
+            <h4>Date(DD):  </h4> <input type="number" name="numDD" class="form-control" id="numDD"><br><br>
+            <h4>Month(MM):  </h4> <input type="number" name="numMM" class="form-control" id="numMM"><br><br>
+            <h4>Year(Century,CC and Year, YY):   </h4> <input type="number" name="numCC" class="form-control" id="numCC"> <input type="number" name="numYY" class="form-control" id="numYY"><br /><br />
+            <h4>Gender(Please enter M for male or F for female):   </h4> <input type="text" name="gender" id="txtgender"><br /><br />
+            <button type="submit" value="submit" onclick=generateName();>Generate Akan Name</button><br /><br />
           </form>
         </div>
       </div>
-    </div>
     <footer>
       <br />
       <br />
@@ -38,5 +37,8 @@
       <p>Contact information: <a href="mailto:marcusjnls@gmail.com">marcusjnls@gmail.com</a>.</p>
       <p>Copyright © 2019</p>
     </footer>
+    <script src="js/main.js"></script>
+    </div>
+    </div>
   </body>
 </html>
