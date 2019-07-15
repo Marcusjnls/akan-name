@@ -1,17 +1,16 @@
 .jumbotron{
   text-align: center;
   background-color:transparent !important;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 .panel-title{
   text-align: center;
   text-decoration: underline;
+  font-family: 'Roboto Condensed', sans-serif;
 }
-/* body {
-  background-image: url("../images/landingpage.jpg");
-  background-repeat: repeat-x;
-  background-position: right top;
-  background-attachment: scroll;
-} */
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
 body::after {
   content: "";
   background: url("../images/landingpage.jpg");
