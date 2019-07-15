@@ -21,7 +21,8 @@ To start working on this project please open your command line and enter:
 2. Chrome Browser Version 75.0.3770.100 
 
 ##Known Bugs
-1. On page refresh or startup an alert "INVALID" pops up but once the user clicks 'OK' the webpage runs normally 
+1. On page refresh or startup an alert "INVALID" pops up but once the user clicks 'OK' the webpage runs normally {image below}
+<img src="images/bug1.png">
 
 
 ##Contact Information
