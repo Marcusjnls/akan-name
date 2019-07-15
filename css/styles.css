@@ -1,7 +1,18 @@
 .jumbotron{
   text-align: center;
+  background-color:
 }
 .panel-title{
   text-align: center;
   text-decoration: underline;
+}
+body {
+  background-image: url("../images/landingpage.jpg");
+  background-repeat: repeat-x;
+  background-position: right top;
+  background-attachment: scroll;
+  font
+}
+img{
+  opacity: 0.5;
 }
