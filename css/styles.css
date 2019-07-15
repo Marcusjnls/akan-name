@@ -1,18 +1,27 @@
 .jumbotron{
   text-align: center;
-  background-color:
+  background-color:transparent !important;
 }
 .panel-title{
   text-align: center;
   text-decoration: underline;
 }
-body {
+/* body {
   background-image: url("../images/landingpage.jpg");
   background-repeat: repeat-x;
   background-position: right top;
   background-attachment: scroll;
-  font
-}
-img{
-  opacity: 0.5;
+} */
+body::after {
+  content: "";
+  background: url("../images/landingpage.jpg");
+  background-attachment: scroll;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: repeat-x;
+  position: absolute;
+  z-index: -1;
 }
