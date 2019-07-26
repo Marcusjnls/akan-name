@@ -54,4 +54,4 @@ else{
   alert("INVALID!");
 }
 }
-generateName()
+// generateName()
