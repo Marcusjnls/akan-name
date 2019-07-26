@@ -34,5 +34,5 @@ form{
 }
 .backgroundimage{
   background-image: url("../images/landingpage.jpg");
-  height: 400px;
+  height: auto;
 }
